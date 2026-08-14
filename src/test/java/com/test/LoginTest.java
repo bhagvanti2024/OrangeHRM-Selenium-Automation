@@ -15,6 +15,7 @@ public class LoginTest extends Base_Class{
 		LoginPage loginPage = new LoginPage(DriverFactory.getDriver());
 
 		loginPage.login("Admin", "admin123");
+		System.out.println("Welcome to Home Page");
 	}
 
 }
